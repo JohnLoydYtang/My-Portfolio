@@ -1,0 +1,81 @@
+.App-Body{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 7%;
+}
+.Profile-Style{
+    height: 23%;
+    width: 23%;
+    margin-right: 20%;
+}
+@media (max-width: 801px) {
+    .Profile-Style {
+        width: 100vh;
+        position: relative;
+        left: 9%;
+    }
+   }
+.App-Sentence{
+    position: relative;
+    display: inline-block;
+    right: 12%;
+}
+.H1-Style{
+    font-size: 300%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.H2-Style{
+    font-weight: bold;
+    color: rgb(231, 40, 231);
+    font-size: 300%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-Style{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 140%;
+}
+.Download-Style{
+    background-color: rgb(231, 40, 231);
+    width: 40%;
+    height: 10%;
+    border-radius: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-weight: bold;
+    font-size: medium;
+}
+@media (max-width: 801px) {
+    .App-Sentence{
+        position: relative;
+        left: 77%;
+        top: 300px;
+    }
+    .H1-Style{
+        color: white;
+        font-size: large;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 220px;
+    }
+    .H2-Style{
+        font-weight: bold;
+        color: rgb(231, 40, 231);
+        font-size: medium;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .p-Style{
+        color:white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: small;
+    }
+    .Download-Style{
+        background-color: rgb(231, 40, 231);
+        width: 90%;
+        height: 10%;
+        border-radius: 25px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:white;
+        font-weight: bold;
+    }
+   }

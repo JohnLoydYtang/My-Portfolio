@@ -1,0 +1,39 @@
+.App-Header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.Button-Style{
+    padding: 2.5%;
+    background-color: transparent;
+    border: none;
+}
+.Text-Style{
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Text-Style:hover{
+    color: rgb(231, 40, 231);
+}
+.Sidebar{
+    border: 2px solid white;
+    width: 95%;
+    margin-left: 2%;
+}
+.Sidebar-Button{
+    padding: 5%;
+    background-color: transparent;
+    border: none;
+    color:white;
+    font-size:x-large;
+}
+.Button-Style-SideBar{
+    padding: 2.5%;
+    background-color: transparent;
+    border: none;
+    display: block;
+}
